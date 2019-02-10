@@ -1,0 +1,48 @@
+{
+  "name": "dodopizza",
+  "version": "1.0.1",
+  "description": "Test task: website for ordering pizza for Dodo Pizza.",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@types/lodash": "^4.14.120",
+    "autoprefixer": "^9.4.6",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.8",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "webpack-dev-server --open --node --env development",
+    "build": "webpack --node --env production",
+    "serv": "static build"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "keywords": [
+    "Webpack",
+    "TypeScript"
+  ],
+  "author": "Yusupov",
+  "license": "MIT"
+}
